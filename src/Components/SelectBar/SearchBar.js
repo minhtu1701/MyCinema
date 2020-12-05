@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import '../SelectBar/SearchBar.css';
 import Pagination from 'react-js-pagination';
 
@@ -10,13 +10,13 @@ const SearchBar = ({ setMovieList }) => {
   const [pageData, setPageData] = useState({});
   let keyword = '';
 
-  const GetMovie = async () => {
+  const GetMovie = useCallback(async () => {
     let url = `https://api.themoviedb.org/3/movie/${type}?api_key=${apiKey}&language=en-US&page=${page}`;
     let response = await fetch(url);
     let data = await response.json();
     setPageData(data);
     setMovieList(data.results);
-  };
+  }, []);
 
   const getMovieByGenre = async (genreId) => {
     genreId = document.getElementById('filterByGenre').value;
