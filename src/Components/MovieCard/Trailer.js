@@ -21,12 +21,13 @@ const Trailer = () => {
 
   useEffect(() => {
     getMovieTrailer(id);
-  }, []);
+  }, [id]);
 
   return (
     <div className="page trailer">
       {movieTrailer && (
         <iframe
+          title="trailer"
           style={{ width: '80%', height: '80%' }}
           src={`https://www.youtube.com/embed/${movieTrailer}`}
         />

@@ -3,7 +3,7 @@ import '../MovieCard/MovieCard.css';
 import Badge from 'react-bootstrap/Badge';
 import { useHistory } from 'react-router-dom';
 import { PlayCircleOutlined, StarFilled, VideoCameraOutlined } from '@ant-design/icons';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import infoCircleOutlined from '@iconify-icons/ant-design/info-circle-outlined';
 
 const MovieCard = ({ movie, genreList }) => {

@@ -7,24 +7,24 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div id="header-logo">
-          <a href="#">
-            <img src={logo} width="200px" height="130px" />
+          <a href="/test">
+            <img src={logo} width="200px" height="130px" alt="logo-img" />
           </a>
         </div>
         <div className="header-navBar">
           <div id="header-navBar__opt1">
             <p>
-              <a href="#">News &#38; Coupon</a>
+              <a href="/test">News &#38; Coupon</a>
             </p>
           </div>
           <div id="header-navBar__opt2">
             <p>
-              <a href="#">Help</a>
+              <a href="/test">Help</a>
             </p>
           </div>
           <div id="header-navBar__opt3">
             <p>
-              <a href="#">Sign up &#47; Sign in</a>
+              <a href="/test">Sign up &#47; Sign in</a>
             </p>
           </div>
         </div>
