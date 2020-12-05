@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MineCinema/static/css/main.abe68746.chunk.css",
-    "main.js": "/MineCinema/static/js/main.a43c42c5.chunk.js",
-    "main.js.map": "/MineCinema/static/js/main.a43c42c5.chunk.js.map",
+    "main.js": "/MineCinema/static/js/main.d58c60fc.chunk.js",
+    "main.js.map": "/MineCinema/static/js/main.d58c60fc.chunk.js.map",
     "runtime-main.js": "/MineCinema/static/js/runtime-main.93689fd7.js",
     "runtime-main.js.map": "/MineCinema/static/js/runtime-main.93689fd7.js.map",
     "static/js/2.ee6329f9.chunk.js": "/MineCinema/static/js/2.ee6329f9.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.93689fd7.js",
     "static/js/2.ee6329f9.chunk.js",
     "static/css/main.abe68746.chunk.css",
-    "static/js/main.a43c42c5.chunk.js"
+    "static/js/main.d58c60fc.chunk.js"
   ]
 }
