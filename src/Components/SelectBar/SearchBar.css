@@ -1,0 +1,72 @@
+.boxSelectBoard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#selectBoard {
+    margin: 30px auto;
+    width: 90%;
+    background-color: #171717;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    color: white;
+    width: fit-content;
+    background-color: transparent;
+    border: 0px;
+    padding: 5px 10px 0px 10px;
+    font-weight: 600;
+}
+
+select {
+    padding: 0 10px;
+    height: 30px;
+    background-color: #171717;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+option {
+    border: 0px;
+}
+
+button:disabled {
+    color: #ff4e4e;
+}
+
+.pageNumber a {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent!important;
+    border: 0px;
+    color: white;
+}
+
+.active, .active a:focus {
+    color: whitesmoke;
+    outline: none;
+    font-size: 26px;
+    box-shadow: none!important;
+}
+
+.searchBtn {
+    margin: 10px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.searchBtn:focus, 
+button:focus {
+    outline: none;
+}

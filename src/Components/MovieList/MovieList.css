@@ -1,0 +1,20 @@
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+.goUpBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.goUpBtn button {
+  font-size: 30px;
+}
+
+.goUpBtn svg{
+  margin-bottom: 10px;
+}

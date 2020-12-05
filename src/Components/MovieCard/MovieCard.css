@@ -1,0 +1,94 @@
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../images/filmcover2.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  width: 280px;
+  height: 320px;
+}
+
+  
+.flip-card-inner {
+  position: relative;
+  width: 180px;
+  height: 269px;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 180px;
+  height: 269px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: solid 2px #f0c8a4;
+  border-radius: 15px;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  background-color: #f0c8a4;
+  color: #3e271f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+
+.cardImage {
+  width: 177px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.movieTitle {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.movieDes::-webkit-scrollbar {
+  display: none;
+}
+
+.movieDes {
+  width: 150px;
+  height: 100px;
+  font-size: 15px;
+  overflow: auto;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.trailer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
