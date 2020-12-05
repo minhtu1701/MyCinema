@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/MineCinema/static/css/main.abe68746.chunk.css",
+    "main.js": "/MineCinema/static/js/main.a43c42c5.chunk.js",
+    "main.js.map": "/MineCinema/static/js/main.a43c42c5.chunk.js.map",
+    "runtime-main.js": "/MineCinema/static/js/runtime-main.93689fd7.js",
+    "runtime-main.js.map": "/MineCinema/static/js/runtime-main.93689fd7.js.map",
+    "static/js/2.ee6329f9.chunk.js": "/MineCinema/static/js/2.ee6329f9.chunk.js",
+    "static/js/2.ee6329f9.chunk.js.map": "/MineCinema/static/js/2.ee6329f9.chunk.js.map",
+    "static/js/3.74c90bb0.chunk.js": "/MineCinema/static/js/3.74c90bb0.chunk.js",
+    "static/js/3.74c90bb0.chunk.js.map": "/MineCinema/static/js/3.74c90bb0.chunk.js.map",
+    "index.html": "/MineCinema/index.html",
+    "static/css/main.abe68746.chunk.css.map": "/MineCinema/static/css/main.abe68746.chunk.css.map",
+    "static/js/2.ee6329f9.chunk.js.LICENSE.txt": "/MineCinema/static/js/2.ee6329f9.chunk.js.LICENSE.txt",
+    "static/media/Banner.css": "/MineCinema/static/media/background.335199b5.jpg",
+    "static/media/carouseimage1.be843387.png": "/MineCinema/static/media/carouseimage1.be843387.png",
+    "static/media/carouseimage2.6a83d63d.png": "/MineCinema/static/media/carouseimage2.6a83d63d.png",
+    "static/media/carouseimage3.19cf5a15.png": "/MineCinema/static/media/carouseimage3.19cf5a15.png",
+    "static/media/MovieCard.css": "/MineCinema/static/media/filmcover2.34104a84.png",
+    "static/media/logo.8a7d354a.png": "/MineCinema/static/media/logo.8a7d354a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93689fd7.js",
+    "static/js/2.ee6329f9.chunk.js",
+    "static/css/main.abe68746.chunk.css",
+    "static/js/main.a43c42c5.chunk.js"
+  ]
+}
