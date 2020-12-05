@@ -38,7 +38,7 @@ const SearchBar = ({ setMovieList }) => {
 
   useEffect(() => {
     GetMovie();
-  }, [type, page]);
+  }, [type, page, GetMovie]);
 
   const handleChangeType = (selectedType) => {
     setType(selectedType);
