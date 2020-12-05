@@ -10,7 +10,6 @@ let apikey = 'c01e341b9cd7af286fd2ad88c67a609e';
 function App() {
   let [movieList, setMovieList] = useState([]);
   let type = 'top_rated';
-  let [page, setPage] = useState(1);
   let [genreList, setGenreList] = useState([]);
 
   const getGenre = async () => {
@@ -22,7 +21,7 @@ function App() {
 
   useEffect(() => {
     getGenre();
-  }, [type, page]);
+  }, [type]);
 
   return (
     <div className="App">

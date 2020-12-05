@@ -3,9 +3,6 @@ import '../Header/Header.css';
 import logo from '../../images/logo.png';
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="header">

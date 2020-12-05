@@ -6,9 +6,6 @@ import carouseimage2 from '../../images/carouseimage2.png';
 import carouseimage3 from '../../images/carouseimage3.png';
 
 class Banner extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="banner">
